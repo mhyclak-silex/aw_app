@@ -9,7 +9,7 @@ jobs:
         id: controller_job
         uses: mhyclak-silex/aap_controller_action@main
         with:
-          controller_host: ${{ secrets.CONTROLLER_HOST }}
+          controller_host: https://student1.rh6b97.example.opentlc.com/
           controller_username: ${{ secrets.CONTROLLER_USERNAME }}
           controller_password: ${{ secrets.CONTROLLER_PASSWORD }}
           controller_project: "Ansible Workshop Project"
