@@ -14,4 +14,5 @@ jobs:
           controller_password: ${{ secrets.CONTROLLER_PASSWORD }}
           job_template: "Deploy Webapp"
           inventory: "Workshop Inventory"
+          extra_vars: "aw_app_branch=main"
           validate_certs: false
