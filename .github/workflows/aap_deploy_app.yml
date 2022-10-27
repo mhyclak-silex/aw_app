@@ -12,7 +12,7 @@ jobs:
           controller_host: https://student1.rh6b97.example.opentlc.com/
           controller_username: ${{ secrets.CONTROLLER_USERNAME }}
           controller_password: ${{ secrets.CONTROLLER_PASSWORD }}
-          controller_project: "Ansible Workshop Project"
+          controller_project: "Silex Ansible Workshop Project"
           job_template: "Deploy Webapp"
           extra_vars: "aw_app_branch=main"
           validate_certs: false
