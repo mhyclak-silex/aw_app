@@ -13,4 +13,5 @@ jobs:
           controller_username: ${{ secrets.CONTROLLER_USERNAME }}
           controller_password: ${{ secrets.CONTROLLER_PASSWORD }}
           job_template: "Deploy Webapp"
+          inventory: "Workshop Inventory"
           validate_certs: false
