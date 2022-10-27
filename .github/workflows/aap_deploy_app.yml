@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Load the ansible-cloud action
         id: controller_job
-        uses: mhyclak-silex/aap_controller_action@latest
+        uses: mhyclak-silex/aap_controller_action
         with:
           controller_host: ${{ secrets.CONTROLLER_HOST }}
           controller_username: ${{ secrets.CONTROLLER_USERNAME }}
